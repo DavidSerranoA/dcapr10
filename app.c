@@ -76,7 +76,7 @@ void seleccionarOpcion(){
             break;
         case 3: calcularMultiplicacion();
             break;
-        case 4:   printf(_("SALIENDO DEL PROGRAMA. ADIOS!!\n\n"));
+        case 4:   printf(_("HASTA LUEGO!!!!\n\n"));
             break;
         default:    printf(_("OPCION INCORRECTA\n"));
                     seleccionarOpcion();
