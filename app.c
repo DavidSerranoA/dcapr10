@@ -13,7 +13,7 @@ void seleccionarOpcion();
 void calcularMultiplicacion();
 
 void calcularSumas(){
-    printf(_("Introduce el numero hasta el que quieres realizar las sumas consecutivas: "));
+    printf(_("Introduce el numero hasta el que quieres realizar sumas consecutivas: "));
     int n,i,res;
     for(i=1;i<=n;i++){
      res  = res + i;   
@@ -58,6 +58,7 @@ void calcularMultiplicacion(){
 
 void seleccionarOpcion(){
     printf(_("\n\nBIENVENIDO AL FASCINANTE MUNDO DE LAS MATEMATICAS\n"));
+	printf(_("****************************************\n"));
     printf(_("SELECCIONA LA OPCION QUE DESEAS \n"));
     printf(_("1.- CALCULAR LAS SUMAS DESDE 1 HASTA N\n"));
     printf(_("2.- CALCULAR LOS NUMEROS PRIMOS HASTA UN NUMERO N\n"));
