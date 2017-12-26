@@ -13,10 +13,8 @@ void seleccionarOpcion();
 void calcularMultiplicacion();
 
 void calcularSumas(){
-    
     printf(_("Introduce el numero hasta el que quieres realizar las sumas consecutivas: "));
     int n,i,res;
-    scanf("%d",&n);
     for(i=1;i<=n;i++){
      res  = res + i;   
     }
